@@ -1,3 +1,4 @@
-@Library('roboshop-shared-library@main')
+@Library('roboshop-shared-library@main') _
 
-nodejs()
+env.COMPONENT="catalogue"
+nodejs("catalogue")
